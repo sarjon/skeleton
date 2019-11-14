@@ -8,8 +8,8 @@ Skeleton acts as an application architecture example that uses:
 
 ## About the structure
 
-* ***Kernel (aka `Core`)*** - code that represents wole application. `Kernel` consists of small modules that solve single problem (e.g. `Identity`).
-* ***SharedKernel*** - code that is shared accross all `Kernel` modules.
+* ***Kernel (aka `Core`)*** - code that represents whole application. `Kernel` consists of small modules that solve single problem (e.g. `Identity`).
+* ***SharedKernel*** - code that is shared across all `Kernel` modules.
 
 ### Modules in depth
 
@@ -20,7 +20,7 @@ Each module consists of 3 layers:
 
 #### Domain layer
 
-Domain layer is responsible for defining and maintaining bussiness rules of the application. This layer contains classes like entities, repositories (usually interfaces), domain events, value objects and domain services.
+Domain layer is responsible for defining and maintaining business rules of the application. This layer contains classes like entities, repositories (usually interfaces), domain events, value objects and domain services.
 
 #### Infrastructure layer
 
