@@ -1,4 +1,4 @@
-# Identity bounded context
+# Money transferring bounded context
 
 Each bounded context contains brief description of what it does.
 

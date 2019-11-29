@@ -2,16 +2,13 @@
 
 declare(strict_types=1);
 
-namespace App\Kernel\Identity\Infrastructure\Persistance\InMemory;
+namespace App\Kernel\Identity\Infrastructure\Persistance\Doctrine\ORM;
 
 use App\Kernel\Identity\Domain\Model\Entity\User;
 use App\Kernel\Identity\Domain\Model\UserRepository;
 use App\Kernel\Identity\Domain\Model\ValueObject\UserId;
 
-/**
- * User repository In-memory implementation used for test environments
- */
-final class UserInMemoryRepository implements UserRepository
+final class UserDoctrineOrmRepository implements UserRepository
 {
     public function add(User $user): void
     {

@@ -1,10 +1,14 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace App\Kernel\Identity\Application\UseCase\CommandHandler;
 
 use App\Kernel\Identity\Application\UseCase\Command\ResetPassword;
 
-interface ResetPasswordHandler
+class ResetPasswordConcreteHandler
 {
-    public function handle(ResetPassword $command): void;
+    public function handle(ResetPassword $command): void
+    {
+    }
 }
